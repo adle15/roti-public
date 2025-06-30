@@ -5,6 +5,7 @@ import asyncio
 import os
 import time
 
+#gemini api key
 api_key = os.getenv('GEMINI_API_KEY')
 
 def stream_data(string):

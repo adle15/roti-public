@@ -5,6 +5,7 @@ from google import genai
 import requests
 import os
 
+# Your DB information & github token for fetch github profile
 db_name = os.getenv('DB_NAME')
 user = os.getenv('DB_USERNAME')
 password_db = os.getenv('DB_PASSWORD')
