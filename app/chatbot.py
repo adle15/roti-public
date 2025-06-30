@@ -61,7 +61,6 @@ async def generate_content(api_key,prompt,history):
 async def document_analysis(api_key,files,prompt,history):
 
   saved_file = []
-  sample_files = []
 
   client = genai.Client(api_key=api_key)
 

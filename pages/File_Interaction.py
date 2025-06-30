@@ -2,8 +2,6 @@ import streamlit as st
 
 from app.chatbot import document_analysis, image_analysis, image_generation
 import asyncio
-from google import genai
-from pathlib import Path
 import os
 import time
 
