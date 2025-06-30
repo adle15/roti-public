@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  roti:
+    image: roti
+    container_name : roti-container
+    build: .                        
+    ports:
+      - "8501:8501"                 
+    env_file:
+      - env.env                       
+    volumes:
+      - .:/app                      
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

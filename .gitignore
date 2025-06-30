@@ -1,0 +1,10 @@
+*.ipynb
+*.json
+*.env
+*.xlsx
+*.txt
+*.pdf
+__pycache__
+uploaded_files
+chatbot_upload_file.py
+*.png
