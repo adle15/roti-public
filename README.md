@@ -2,6 +2,7 @@
 
 This is a Streamlit-based chatbot application powered by Google Gemini and vector similarity search using `pgvector`. It supports file interactions, document embedding, and dynamic response generation with adjustable parameters (e.g., temperature, top-k, similarity thresholds).
 
+![Roti Architecture](assets/Roti-Architecture.gif)
 ---
 
 ## 🛠️ Setup Instructions
@@ -33,8 +34,6 @@ Or follow the full guide here: https://github.com/pgvector/pgvector
 │   ├── utils.py                        # DB connection and pgvector similarity search
 │   ├── sec_key.json                    # (If used) secret keys (add to .gitignore)
 │
-├── config/
-│   └── config.py                       # Contains GCP service config, model params (top_k, top_p, etc)
 │
 ├── pages/
 │   ├── File_Interaction.py             # Streamlit sub-page for file-based interaction
@@ -83,6 +82,8 @@ Ensure environment variables are properly set in env.env.
 🎨 Image generation: Describe a scene or attach a photo – Roti can generate visuals accordingly. However, Roti🍞 intentionally avoids mimicking specific art styles (like Ghibli or other animations). As someone who watches a lot of anime and appreciates the craft behind it, I made this a conscious design choice out of respect for creators.
 
 🔥 GitHub roasting: Want honest (and maybe savage) feedback on your GitHub profile? Roti delivers it with personality and flair😅
+
+---
 
 ## 📌 Notes
 - .streamlit/config.toml is used to prevent deployment errors, especially behind NGINX reverse proxies.
