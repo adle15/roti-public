@@ -82,6 +82,8 @@ Ensure environment variables are properly set in env.env.
 
 🔥 GitHub roasting: Want honest (and maybe savage) feedback on your GitHub profile? Roti delivers it with personality and flair😅
 
+---
+
 ## 📌 Notes
 - .streamlit/config.toml is used to prevent deployment errors, especially behind NGINX reverse proxies.
 
