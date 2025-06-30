@@ -33,8 +33,6 @@ Or follow the full guide here: https://github.com/pgvector/pgvector
 │   ├── utils.py                        # DB connection and pgvector similarity search
 │   ├── sec_key.json                    # (If used) secret keys (add to .gitignore)
 │
-├── config/
-│   └── config.py                       # Contains GCP service config, model params (top_k, top_p, etc)
 │
 ├── pages/
 │   ├── File_Interaction.py             # Streamlit sub-page for file-based interaction
