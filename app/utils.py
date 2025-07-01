@@ -73,8 +73,6 @@ async def fetch_github_profile(username):
 async def similarity_search(api_key,prompt,similarity_threshold,num_matches,table_name):
     matches = []
 
-    # embeddings_service = VertexAIEmbeddings(model_name="textembedding-gecko@003",location="asia-southeast1",max_output_tokens=768)
-    # qe = embeddings_service.embed_query(prompt)
     client = genai.Client(api_key=api_key)
     embeddings_service = client.models.embed_content(
         model="text-embedding-004",
