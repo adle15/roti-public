@@ -1,4 +1,4 @@
-# Gemini Chatbot with Streamlit & pgvector
+# Gemini Chatbot with Langchain, Streamlit & pgvector
 
 This is a Streamlit-based chatbot application powered by Google Gemini and vector similarity search using `pgvector`. It supports file interactions, document embedding, and dynamic response generation with adjustable parameters (e.g., temperature, top-k, similarity thresholds).
 
