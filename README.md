@@ -41,7 +41,7 @@ Or follow the full guide here: https://github.com/pgvector/pgvector
 │
 ├── uploaded_files/                     # Folder to store user-uploaded files
 │
-├── Chat.py                             # 🔥 Main Streamlit app entry point
+├── Chat.py                             # Main Streamlit app entry point
 │
 ├── docker-compose.yml                  # Docker orchestration for app + db (if any)
 ├── Dockerfile                          # Docker container definition
@@ -52,13 +52,11 @@ Or follow the full guide here: https://github.com/pgvector/pgvector
 │
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # This file
-│
-├── *.ipynb                              # Notebook tests for chunking, image generation, hit, repo, etc.
 ```
 
 ---
 
-## 🚀 Running the App\
+## 🚀 Running the App
 ### Locally
 ```bash
 streamlit run Chat.py
